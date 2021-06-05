@@ -1,0 +1,128 @@
+.slyder{
+	width: 952px;
+	height: 351px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 120px;
+
+	.img1{
+		width: 240px;
+		height: 320px;
+		border-radius: 30% 0;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+		background-image: url(../../image/room.png);
+		background-color: blue;
+	}
+
+	.img2{
+		width: 240px;
+		height: 320px;
+		border-radius: 30% 0;
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
+	}
+
+	.description{
+		width: 384px;
+		height: 351px;
+
+		.block{
+			width: 100%;
+			height: 280px;
+			border-radius: 0 100px;
+			border: solid 1px #C9E9F3;
+			margin-bottom: 21px;
+			padding-top: 54px;
+			box-sizing: border-box;
+
+			.stars{
+				width: 136px;
+				height: 24px;
+				margin-bottom: 16px;
+				margin-left: 16px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+			}
+
+			.text{
+				width: 352px;
+				height: 76px;
+				margin-bottom: 16px;
+				margin-left: 16px;
+				font-weight: 600;
+				font-size: 14px;
+				font-family: Nunito-Regular;
+				color: #3E3F43;
+			}
+
+			.names{
+				width: 151px;
+				height: 40px;
+				margin-left: 64px;
+				font-weight: 600;
+				font-size: 12px;
+				line-height: 16px;
+				font-family: Nunito-Regular;
+				color: #AFAFAF;
+			}
+		}
+
+		.buttons{
+			height: 19px;
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			margin-bottom: 23px;
+
+			.button1{
+				width: 95px;
+				height: 19px;
+				font-weight: 600;
+				font-size: 14px;
+				font-family: Nunito-Regular;
+
+				svg{
+					margin-right: 10px;
+				}
+			}
+
+			.button2{
+				width: 95px;
+				height: 19px;
+				font-weight: 600;
+				font-size: 14px;
+				font-family: Nunito-Regular;
+
+				svg{
+					float: right;
+					margin-top: 5px;
+				}
+			}
+		}
+
+		.indicators{
+			margin-left: auto;
+			margin-right: 0px;
+			width: 184px;
+			height: 8px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+
+			& > *{
+				width: 40px;
+				height: 8px;
+				border-radius: 8px;
+				background-color: #E5E5E5;
+			}
+
+			.ind1{
+				background-color: #DAA520;
+			}
+		}
+	}
+}

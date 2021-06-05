@@ -1,0 +1,58 @@
+.howList{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-bottom: 64px;
+
+	& > *{
+		width: 238px;
+		height: 177px;
+		margin-bottom: 15px;
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+		.number{
+			position: absolute;
+			top: 23px;
+			left: 20px;
+			width: 58px;
+			height: 131px;
+			font-family: Nunito-Regular;
+			font-weight: 600;
+			font-size: 96px;
+			color: rgba(249, 189, 189, 0.25);
+		}
+
+		img{
+			max-width: 50%;
+			height: auto;
+		}
+
+		.text{
+			width: auto;
+			font-family: Nunito-Regular;
+			font-weight: bold;
+			font-size: 24px;
+		}
+	}
+}
+
+.Hbutton{
+	width: 212px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #DAA520;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-family: Nunito-Regular;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 134px;
+}

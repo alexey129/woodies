@@ -1,0 +1,113 @@
+.gradient{
+	width: 100%;
+	height: 174px;
+	background: linear-gradient(#FFFFFF,#EFEFEF);
+	padding-top: 53px;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+
+	.text{
+		width: 493px;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 25px;
+		font-family: Nunito-Regular;
+	}
+
+	.subscribe{
+		width: 448px;
+		height: 40px;
+		border: solid 1px #DAA520;
+		display: flex;
+		flex-direction: row;
+
+		.email{
+			height: 100%;
+			flex-grow: 1;
+			font-size: 16px;
+			font-family: Nunito-Regular;
+			color: #AFAFAF;
+			padding-left: 16px;
+			padding-top: 9px;
+			box-sizing: border-box;
+		}
+
+		.button{
+			width: 116px;
+			height: 100%;
+			background-color: #DAA520;
+			font-weight: 600;
+			font-size: 16px;
+			font-family: Nunito-Regular;
+			color: white;
+			line-height: 40px;
+			text-align: center;
+		}
+	}
+}
+
+.contacts1{
+	width: 100%;
+	height: 281px;
+	background-color: #EFEFEF;
+	padding-top: 34px;
+	padding-left: 100px;
+	padding-right: 100px;
+	box-sizing: border-box;
+
+	.grid{
+		display: grid;
+		grid-template-columns: 244px 117px 137px 120px 1fr;
+		width: 709px;
+		row-gap: 16px;
+		margin-bottom: 45px;
+
+		.div1{
+			display: flex;
+			flex-direction: row;
+
+			.flower9{
+				width: 30px;
+				height: 30px;
+			}
+
+			& > div{
+				font-weight: bold;
+				font-size: 24px;
+				font-family: Nunito-Regular;
+				margin-left: 10px;
+				color: #333333;
+			}
+		}
+
+		.div2, .div3, .div4, .div5{
+			font-weight: 600;
+			font-size: 18px;
+			color: #333333;
+			font-family: Nunito-Regular;
+		}
+
+		.div6, .div7, .div8, .div9, .div10,
+		.div11, .div12, .div13, .div14,
+		.div15, .div16, .div17, .div18,
+		.div19, .div20{
+			font-family: Nunito-Regular;
+			font-size: 14px;
+			color: #8D8D8D;
+		}
+	}
+
+	.company{
+		width: 100%;
+		text-align: center;
+		margin-bottom: 24px;
+		font-weight: 600;
+		font-size: 12px;
+		font-family: Nunito-Regular;
+		color: #8D8D8D;
+	}
+}
